@@ -3,15 +3,8 @@ package asg.dev.abc18.jndidemo;
 import javax.naming.Context;
 import javax.naming.NamingEnumeration;
 import javax.naming.NamingException;
-import javax.naming.directory.Attribute;
-import javax.naming.directory.Attributes;
-import javax.naming.directory.DirContext;
-import javax.naming.directory.InitialDirContext;
-import javax.naming.directory.SearchControls;
-import javax.naming.directory.SearchResult;
-import java.util.ArrayList;
+import javax.naming.directory.*;
 import java.util.Hashtable;
-import java.util.List;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -119,15 +112,15 @@ public class Main {
 
         ctx.close();
 
-        List<Integer> z01 = new ArrayList<Integer>();
-        z01.add(1);
-        z01.add(2);
-        List<String> z02 = new ArrayList<String>();
-        z02.add("abc01");
-        z02.add("abc02");
-
-        System.out.println(z01.getClass().getSimpleName());
-        System.out.println(z02.getClass().getSimpleName());
+//        List<Integer> z01 = new ArrayList<Integer>();
+//        z01.add(1);
+//        z01.add(2);
+//        List<String> z02 = new ArrayList<String>();
+//        z02.add("abc01");
+//        z02.add("abc02");
+//
+//        System.out.println(z01.getClass().getSimpleName());
+//        System.out.println(z02.getClass().getSimpleName());
 
 
     } catch (NamingException e) {
